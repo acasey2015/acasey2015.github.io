@@ -3,7 +3,31 @@ body {
   font-weight: 300;
   background: url(betsybackground.jpg) repeat;
 }
-#wrapper {
+body {
   width: 960px;
   margin: 20px auto;
+  background-attachment: fixed;
+}
+
+img {
+	border: gray;
+	border-radius: 999999px;
+}
+
+div#wrapper 
+{
+	width: 960px;
+	margin: 20px auto;
+}
+
+p {
+	line-height: 26px;
+}
+
+li {
+	line-height: 26px;
+}
+
+a:hover {
+	color: purple;
 }
