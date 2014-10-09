@@ -31,3 +31,11 @@ li {
 a:hover {
 	color: purple;
 }
+
+#footer{
+                color: white;
+                margin: 20px auto;
+                padding: 20px;
+                text-align: center;
+}
+
