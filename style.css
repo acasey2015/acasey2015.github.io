@@ -1,7 +1,7 @@
 body {
   font-family: 'lucida sans unicode', lucida grand, sans-serif;
   font-weight: 300;
-  background: url(betsybackground.jpg) repeat;
+  background: url(wood.jpg) repeat;
 }
 body {
   width: 960px;
@@ -14,22 +14,40 @@ img {
 	border-radius: 999999px;
 }
 
-div#wrapper 
+#wrapper 
 {
 	width: 960px;
 	margin: 20px auto;
 }
 
+h1 {
+	color:white;
+}
+
+h2{
+	color:white;
+}
+
+h3 {
+	color:white;
+}
+
+h4{
+	color:white;
+}
+
 p {
 	line-height: 26px;
+	color:white;
 }
 
 li {
 	line-height: 26px;
+	color:white;
 }
 
 a:hover {
-	color: purple;
+	color: white;
 }
 
 #footer{
