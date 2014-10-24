@@ -1,38 +1,49 @@
+/* Set the font family for the whole document, and add a background image */
 body {
-  font-family: 'Cabin', sans-serif;
-  font-weight: 300;
-  background: url(wood.jpg)no-repeat;
-  background-size: 1600px;
+                font-family: 'oxygen';
+                background-image: url(wood.jpg);
+                background-size: cover;
                 background-position: center center;
                 background-attachment: fixed;
-}
-
-#wrapper 
-{
-  width: 960px;
-  margin: 20px auto;
-}
-
-p {
-  line-height: 26px;
-}
-
-li {
-  line-height: 26px
-  color:white;
-}
-
-a:hover {
-  color: purple;
-}
-
-#footer{
-                color: white;
-                margin: 20px auto;
-                padding: 20px;
-                text-align: center;
-}
+                color:white;
 
 h1 {
-  color:white;
+                color:white;
+                font-size: 36px; 
+                font-style: italic;
+                width: 400px;
+                margin: 10px;
+                padding: 10px;
+                
 }
+
+/* Make the section headers (e.g. Summary, Experience) 26px font */
+h4 {
+                font-size: 26px;
+                color:white;
+}
+
+/* Make the job descriptions (e.g. Co-Owner, A1A Car Wash) blue and 20px font */
+h5 {font-size: 20px;
+                color: blue;
+                color:white;
+}
+
+/* Put a border around the photo, set it to the right */
+img {
+                border: 1px solid grey;
+                border-radius: 99999999999999px;
+                box-shadow: 10px 10px 5px grey;
+                Float: right;
+}
+
+}
+
+/* Make it so you can see the footer and center it */
+div#footer {
+                color: white;
+                margin: 20px auto;
+                text-align: center;
+                color:white;
+}
+
