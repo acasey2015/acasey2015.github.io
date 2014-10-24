@@ -1,35 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Life at Kellogg</title>
   <title>Contact Us</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
+
+
+  <!-- Links to the bootstrap and j-files that are needed to use bootstrap -->
+  <!-- getbootstrap.com/css/grid# for the Bootstrap website-->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="style.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="container">
 
- <ul class="nav nav-tabs" role="tablist">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="index2.html">About Us</a></li>
-  <li><a href="#">Events</a></li>
-  <li><a href="index3.html">Contact Us</a></li>
-</ul>
+<div class="container-fluid">
+  <ul class="nav nav-tabs" role="tablist">
+    <li ><a href="index.html">Home</a></li>
+    <li ><a href="index2.html">About Us</a></li>
+    <li><a href="index4.html">Events</a></li>
+    <li><a href="index3.html">Write to Us</a></li>
 
-<h1><font color="white">Write us an email!</font></h1>
-<form action="mailto:acasey2015@kellogg.northwestern.edu" "method="post">
-        <div class="form-group"
-    <label for="subject"><strong><font color="white">What would you like to know?</strong></font></label>
-    <input type="text" class="form-control" id="subject" name="subject" placeholder="Short summary of your inquiry">
-    </div>
-    <div class="form-group">
-    <label for="body"><font color="white">Please list any further detail.</font></label>
-    <textarea class="form-control" name="body" rows="6"></textarea> 
-    </div>
-    <button type="submit" class="btn btn-success">Send</button>
-    </form>
+</ul>
+</div>
+
+  <div class="container">
+    <h1>Tell Us About Your Favorite Kellogg Memories </h1>
+    <form action="mailto:acasey9@gmail.com?subject=Feedback on Kellogg Event" 
+          method="POST" 
+          enctype="text/plain"
+          enctype="multipart/form-data"
+          name="EmailThisForm">
+
+      <!-- Text -->
+      <div class="form-group">
+        <label for="name">What's your name?</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name here">
+      </div>
+
+      <!-- Text -->
+      <div class="form-group">
+        <label for="email">What is your email address?</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address">
+      </div>
+
+      <!-- Textarea -->
+      <div class="form-group">
+        <label for="special">What was your favorite event?</label>
+        <textarea class="form-control" name="special" rows="10" placeholder="Describe your favorite event and include key highlights"></textarea>
+      </div>
+
+      <!-- Select -->
+      <div class="form-group">
+        <label for="extras">Would you be willing to answer additional questions about your experiences?</label>
+        <select class="form-control" id="extras" name="extras">
+          <option>--</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </div>
+
+      <!--Button for submission -->
+    <button type="submit" 
+            value="Send"
+            class="btn btn-info">Submit
+    </button>
+
+     
+  </div>
+
+  </div>
+  </div>
+  </div>
+  </div>
     </body>
 </body>
 </html>
+ No newline at end of file
+</html>
+

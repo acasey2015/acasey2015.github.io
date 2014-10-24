@@ -7,6 +7,7 @@ body {
                 background-attachment: fixed;
                 color:white;
 
+
 h1 {
                 color:white;
                 font-size: 36px; 
@@ -32,7 +33,6 @@ h5 {font-size: 20px;
 /* Put a border around the photo, set it to the right */
 img {
                 border: 1px solid grey;
-                border-radius: 99999999999999px;
                 box-shadow: 10px 10px 5px grey;
                 Float: right;
 }
@@ -47,3 +47,6 @@ div#footer {
                 color:white;
 }
 
+h3 {
+        color:white;
+}
