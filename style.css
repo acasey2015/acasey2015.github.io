@@ -7,6 +7,10 @@ body {
   background-attachment: fixed;
 }
 
+label {
+	color:white;
+}
+
 img {
 	border: gray;
 	border-radius: 999999px;
