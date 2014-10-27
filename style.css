@@ -4,6 +4,9 @@ body {
   background: url(wood.jpg) repeat;
 }
 
+img {
+	border: 5px solid white;
+}
 
 body {
   background-attachment: fixed;
